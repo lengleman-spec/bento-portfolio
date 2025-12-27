@@ -1,11 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Google Sans", sans-serif;
 }
 
 body {
   margin: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+
+ul {
+  padding: 1.5rem;
 }
 
 .container {
@@ -16,7 +30,7 @@ body {
 }
 
 .card {
-  border: 1px solid rgb(49, 48, 48);
+  border: 2px solid rgb(49, 48, 48);
   border-radius: 8px;
   padding: 1.5rem;
 }
@@ -71,16 +85,7 @@ body {
   padding: 0.2rem;
 }
 
-.skills-list {
-  margin-top: 0.8rem;
-}
-
 /* About Section */
-.about h2,
-.skills h2,
-.projects h2 {
-  margin-bottom: 0.8rem;
-}
 
 .about {
   grid-row: span 2;
@@ -89,4 +94,18 @@ body {
 .about-img {
   height: 200px;
   margin: 2rem 0;
+}
+
+.about-description {
+  margin-top: 1rem;
+}
+
+/* Projects section */
+
+.projects {
+  grid-column: span 2;
+}
+.projects-list,
+.skills-list {
+  padding: 0.5rem 2rem;
 }
