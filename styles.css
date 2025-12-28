@@ -10,8 +10,8 @@
 body {
   margin: 2rem;
   background: black;
-  background-image: linear-gradient(whitesmoke 1px, transparent 2px),
-    linear-gradient(90deg, whitesmoke 2px, transparent 2px);
+  background-image: linear-gradient(rgb(180, 180, 180) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(180, 180, 180) 1px, transparent 1px);
   background-size: 50px 50px;
   color: white;
 }
@@ -38,7 +38,7 @@ ul {
   border: 2px solid whitesmoke;
   border-radius: 8px;
   padding: 1.5rem;
-  background-color: black;
+  background-color: rgb(10, 10, 10);
 }
 
 .hero {
@@ -85,10 +85,29 @@ ul {
   grid-row: span 2;
 }
 
+.skills-description {
+  padding: 1rem 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 .skills-list li,
 .projects-list li {
-  list-style-type: square;
-  padding: 0.2rem;
+  padding-left: 1em;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.skills-list li::before,
+.projects-list li::before {
+  content: "\2714";
+  position: absolute;
+  left: 0;
+  color: green;
+  font-weight: bold;
 }
 
 /* About Section */
