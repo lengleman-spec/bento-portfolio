@@ -9,6 +9,11 @@
 
 body {
   margin: 2rem;
+  background: black;
+  background-image: linear-gradient(whitesmoke 1px, transparent 2px),
+    linear-gradient(90deg, whitesmoke 2px, transparent 2px);
+  background-size: 50px 50px;
+  color: white;
 }
 
 h1 {
@@ -30,9 +35,10 @@ ul {
 }
 
 .card {
-  border: 2px solid rgb(49, 48, 48);
+  border: 2px solid whitesmoke;
   border-radius: 8px;
   padding: 1.5rem;
+  background-color: black;
 }
 
 .hero {
