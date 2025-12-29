@@ -52,6 +52,10 @@ a {
   background-color: rgb(10, 10, 10);
 }
 
+.card:hover {
+  border: 2px solid var(--primary-color);
+}
+
 .hero {
   grid-column: span 3;
   display: flex;
