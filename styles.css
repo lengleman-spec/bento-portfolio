@@ -7,6 +7,10 @@
   font-family: "Google Sans", sans-serif;
 }
 
+:root {
+  --primary-color: #0078cc; /* Bright Blue */
+}
+
 body {
   margin: 2rem;
   background: black;
@@ -18,6 +22,10 @@ body {
 
 h1 {
   font-size: 2rem;
+  /* color: #fff5ee; */
+  /* color: #6096ba; */
+  /* color: #436982; */
+  color: #0078cc;
 }
 h2 {
   font-size: 1.25rem;
@@ -25,6 +33,11 @@ h2 {
 
 ul {
   padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .container {
@@ -143,4 +156,14 @@ address {
   gap: 1rem;
   font-style: normal;
   margin-top: 1rem;
+}
+
+.contact-info {
+  display: inline;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
