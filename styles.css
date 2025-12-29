@@ -163,6 +163,14 @@ a {
 }
 
 /* Contact */
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-container i {
+  color: var(--bright-color);
+}
 .contact-header {
   padding-bottom: 1rem;
 }
@@ -179,8 +187,10 @@ address {
   display: inline;
 }
 
-.contact-container {
+/* Experience */
+.experience {
+  grid-column: span 2;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 1rem;
 }
