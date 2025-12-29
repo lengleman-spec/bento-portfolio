@@ -85,10 +85,15 @@ a {
   justify-content: center;
   color: white;
   font-size: 2rem;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 8px;
   width: 45px;
   height: 45px;
+  box-shadow: 2px 2px 6px var(--primary-color);
+}
+
+.social-links-container a:hover {
+  background-color: var(--primary-color);
 }
 
 .hero-btn {
