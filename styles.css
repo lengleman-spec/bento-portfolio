@@ -103,7 +103,6 @@ ul {
   content: "\2714";
   position: absolute;
   left: 0;
-
   color: green;
   font-weight: bold;
 }
@@ -131,4 +130,17 @@ ul {
 .projects-list,
 .skills-list {
   padding: 0.5rem 2rem;
+}
+
+/* Contact */
+.contact-header {
+  padding-bottom: 1rem;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-style: normal;
+  margin-top: 1rem;
 }
