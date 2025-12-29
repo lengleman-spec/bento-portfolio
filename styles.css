@@ -89,16 +89,13 @@ ul {
   padding: 1rem 0;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
 .skills-list li,
 .projects-list li {
   padding-left: 1em;
   position: relative;
   margin: 1rem 0;
+  list-style-type: none;
+  padding-left: 2rem;
 }
 
 .skills-list li::before,
@@ -106,6 +103,7 @@ ul {
   content: "\2714";
   position: absolute;
   left: 0;
+
   color: green;
   font-weight: bold;
 }
