@@ -9,24 +9,22 @@
 
 :root {
   --primary-color: #0078cc; /* Bright Blue */
+  --bright-color: #1aa1ff; /* Baby Blue */
 }
 
 body {
   margin: 2rem;
   background: black;
-  background-image: linear-gradient(rgb(180, 180, 180) 1px, transparent 1px),
-    linear-gradient(90deg, rgb(180, 180, 180) 1px, transparent 1px);
+  background-image: linear-gradient(rgb(100, 100, 100) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(100, 100, 100) 1px, transparent 1px);
   background-size: 50px 50px;
   color: white;
 }
 
 h1 {
   font-size: 2rem;
-  /* color: #fff5ee; */
-  /* color: #6096ba; */
-  /* color: #436982; */
-  color: #0078cc;
 }
+
 h2 {
   font-size: 1.25rem;
 }
@@ -37,7 +35,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
 }
 
 .container {
@@ -48,7 +46,7 @@ a {
 }
 
 .card {
-  border: 2px solid whitesmoke;
+  border: 1px solid rgb(87, 87, 87);
   border-radius: 8px;
   padding: 1.5rem;
   background-color: rgb(10, 10, 10);
@@ -81,9 +79,16 @@ a {
   margin-top: 1rem;
 }
 
-.social-links-container i {
-  color: black;
+.social-links-container a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
   font-size: 2rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
 }
 
 .hero-btn {
