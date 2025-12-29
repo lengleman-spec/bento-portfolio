@@ -62,6 +62,20 @@ a {
   width: 100px;
 }
 
+.hero-btn {
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px var(--primary-color);
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
+
+.hero-btn:hover {
+  background-color: var(--primary-color);
+}
+
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -94,13 +108,6 @@ a {
 
 .social-links-container a:hover {
   background-color: var(--primary-color);
-}
-
-.hero-btn {
-  font-size: 1rem;
-  padding: 0.3rem 1rem;
-  cursor: pointer;
-  border-radius: 4px;
 }
 
 /* Skills Section */
